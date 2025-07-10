@@ -30,4 +30,13 @@ A lightweight and secure image encryption-decryption tool using XOR-based pixel 
 git clone https://github.com/yourusername/pixel-image-encryptor.git
 cd pixel-image-encryptor
 pip install -r requirements.txt
+```
 
+
+## 🔐 How XOR Encryption Works
+
+The system encrypts each pixel of the image using the XOR operation:
+
+```text
+Encrypted Pixel = Original Pixel ⊕ Key
+Decrypted Pixel = Encrypted Pixel ⊕ Key
